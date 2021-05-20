@@ -1,0 +1,10 @@
+*checkpoint*
+*.ipynb*
+*ckpt*
+.venv
+*.npy
+*.h5
+*.pickle
+*.pyc
+*/results/*
+
