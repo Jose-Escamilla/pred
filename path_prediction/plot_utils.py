@@ -39,7 +39,7 @@ def plot_training_data(training_data,experiment_parameters):
 # Visualization of the training results
 def plot_training_results(train_loss_results,val_loss_results,val_metrics_results):
     # Plot training results
-    fig = plt.figure(figsize=(32,16))
+    fig = plt.figure(figsize=(16,8))
     ax = fig.add_subplot(1, 2, 1)
     ax.plot(train_loss_results,'b',label='Training')
     ax.plot(val_loss_results,'r',label='Validation')
